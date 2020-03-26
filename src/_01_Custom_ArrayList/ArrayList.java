@@ -4,6 +4,8 @@ package _01_Custom_ArrayList;
 
 public class ArrayList <T>{
 	
+	ArrayList<T> list = new ArrayList<T>();
+	
 	public ArrayList() {
 	}
 	
@@ -13,7 +15,7 @@ public class ArrayList <T>{
 	}
 	
 	public void add(T val) {
-		
+		list.add(val);
 	}
 	
 	public void insert(int loc, T val) throws IndexOutOfBoundsException {
