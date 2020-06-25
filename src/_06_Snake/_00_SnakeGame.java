@@ -114,7 +114,7 @@ public class _00_SnakeGame implements ActionListener, KeyListener {
 		//1. Use a switch statement on e.getKeyCode()
 		//   to determine which key was pressed.
 		switch(e.getKeyCode()){
-			
+		case "s"
 			
 		}
 		// if an arrow key is pressed, set the snake's 
