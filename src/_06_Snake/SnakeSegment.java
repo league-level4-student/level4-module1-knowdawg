@@ -3,7 +3,7 @@ package _06_Snake;
 import java.awt.Graphics;
 
 public class SnakeSegment {
-	private Location location;
+	Location location;
 	private int size;
 
 	public SnakeSegment(Location loc, int size) {
